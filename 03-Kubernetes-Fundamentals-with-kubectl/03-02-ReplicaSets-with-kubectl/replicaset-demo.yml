@@ -12,8 +12,8 @@ spec:
   template:
     metadata:
       labels:
-        app: xorg-helloworld
+        app: xorg-helloworld-app
     spec:
       containers:
-      - name: xorg-helloworld-app
-        image: ghcr.io/stacksimplify/kube-helloworld:1.0.0
+        - name: xorg-helloworld-app
+          image: ghcr.io/stacksimplify/kube-helloworld:1.0.0
